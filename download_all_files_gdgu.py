@@ -4,7 +4,7 @@ import time
 
 DRIVER = 'C:/chromedriver.exe'
 driver = webdriver.Chrome(DRIVER)
-website = 'https://sites.google.com/site/csedsa201' #enter the gdgu website here
+website = 'https://sites.google.com/site/gdguinternetofthings' #enter the gdgu website here
 driver.get(website + '/file-cabinet/') 
 
 continue_link = driver.find_elements_by_link_text('Download')
